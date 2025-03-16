@@ -1,0 +1,45 @@
+{
+  "name": "cilari-compliance-portal",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare",
+    "setup-db": "node setup-database.js",
+    "setup-training": "node setup-training-data.js",
+    "import-modules": "node scripts/import-modules.js",
+    "import-module1": "node scripts/import-module1-content.js",
+    "import-module2": "node scripts/import-module2-content.js",
+    "import-module3": "node scripts/import-module3-content.js",
+    "import-module4": "node scripts/import-module4-content.js",
+    "import-module5": "node scripts/import-module5-content.js",
+    "import-module6": "node scripts/import-module6-content.js",
+    "import-module7": "node scripts/import-module7-content.js"
+  },
+  "dependencies": {
+    "@headlessui/vue": "^1.7.19",
+    "@heroicons/vue": "^2.1.1",
+    "@nuxtjs/tailwindcss": "^6.11.4",
+    "@pinia/nuxt": "^0.5.1",
+    "@tailwindcss/forms": "^0.5.7",
+    "@tailwindcss/typography": "^0.5.10",
+    "@types/bcryptjs": "^2.4.6",
+    "@types/jsonwebtoken": "^9.0.6",
+    "@types/pg": "^8.11.2",
+    "@vueuse/nuxt": "^10.9.0",
+    "bcryptjs": "^2.4.3",
+    "dotenv": "^16.4.5",
+    "jsonwebtoken": "^9.0.2",
+    "marked": "^12.0.0",
+    "nuxt": "^3.13.2",
+    "pg": "^8.11.3",
+    "pinia": "^2.1.7"
+  },
+  "devDependencies": {
+    "@types/marked": "^5.0.2",
+    "typescript": "^5.4.2"
+  }
+}

@@ -1,0 +1,1 @@
+export { default } from "file:///home/TheObserverHub/Bolt_Nuxt_Cilari_compliance/node_modules/@nuxt/vite-builder/dist/runtime/vite-node.mjs"
